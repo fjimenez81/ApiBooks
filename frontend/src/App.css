@@ -47,8 +47,8 @@
 }
 
 .card {
-  width: 12%;
-  height: 30%;
+  width: 14%;
+  height: 33%;
   background-color: #21252b;
   border-radius: 7px;
   margin-left: 20px;
@@ -85,7 +85,7 @@
 
 .cont_form {
   width: 25%;
-  height: 40%;
+  height: 43%;
   position: absolute;
   left: 37%;
   top: 30%;
