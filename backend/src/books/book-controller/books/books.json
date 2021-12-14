@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Oliver Twist",
+      "isbn": "wt345",
+      "author": {
+        "first_name": "Oliver",
+        "last_name": "Twist"
+      }
+    },
+    {
+      "name": "Hard Times",
+      "isbn": "jk654",
+      "author": {
+        "first_name": "Charles",
+        "last_name": "Dickens"
+      }
+    },
+    {
+      "name": "Hamlet",
+      "isbn": "po789",
+      "author": {
+        "first_name": "William",
+        "last_name": "Shakespeare"
+      }
+    },
+    {
+      "name": "IT",
+      "isbn": "yu098",
+      "author": {
+        "first_name": "Stephen",
+        "last_name": "King"
+      }
+    },
+    {
+      "name": "Norwegian Wood",
+      "isbn": "hj846",
+      "author": {
+        "first_name": "Haruki",
+        "last_name": "Murakami"
+      }
+    },
+    {
+      "name": "The Eight",
+      "isbn": "op012",
+      "author": {
+        "first_name": "Katherine",
+        "last_name": "Neville"
+      }
+    },
+    {
+      "name": "The Da Vinci Code",
+      "isbn": "cv456",
+      "author": {
+        "first_name": "Dan",
+        "last_name": "Brown"
+      }
+    },
+    {
+      "name": "El Hobbit",
+      "isbn": "al207",
+      "author": {
+        "first_name": "J.R.R.",
+        "last_name": "Tolkien"
+      }
+    }
+  ]

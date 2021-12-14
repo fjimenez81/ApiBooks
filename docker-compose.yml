@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  backend:
+    build: ./backend/
+    container_name: backend
+    restart: always
+    volumes: 
+      - ./backend:/app
+    ports: 
+      - 5000:5000
+    command: "npm run start:dev"
+    depends_on:
+      - database
+
+  frontend:
+    build: ./frontend/
+    container_name: frontend
+    restart: always
+    volumes: 
+      - ./frontend:/app
+    ports: 
+      - 80:80
+    depends_on:
+      - backend
+
+  database:
+    image: postgres:latest
+    restart: always
+    ports: 
+      - 5432:5432
+    env_file:
+      - ./database/db.env
+    volumes:
+      - ./database/.data_tmp:/var/lib/postgresql/data
+      - ./database/db.sql:/docker-entrypoint-initdb.d/db.sql
